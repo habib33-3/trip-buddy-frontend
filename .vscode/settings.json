@@ -1,14 +1,3 @@
 {
-  "eslint.workingDirectories": [
-    {
-      "mode": "auto"
-    }
-  ],
-  "cSpell.words": [
-    "geolocation",
-    "mydatabase",
-    "nodeuser",
-    "nosniff",
-    "WATCHPACK"
-  ]
+    "js/ts.tsdk.path": "node_modules\\typescript\\lib"
 }

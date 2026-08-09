@@ -1,13 +1,4 @@
-packages:
-  - apps/*
-  - packages/*
-
-onlyBuiltDependencies:
-  - '@prisma/client'
-  - '@prisma/engines'
-  - '@swc/core'
-  - '@tailwindcss/oxide'
-  - argon2
-  - esbuild
-  - prisma
-  - unrs-resolver
+allowBuilds:
+  '@swc/core': true
+  esbuild: true
+  unrs-resolver: true
